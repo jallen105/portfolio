@@ -4,7 +4,7 @@ const Header = () => {
     <header>
         <img src="" alt="a picture of me." />
         <h1>Jonathan Allen</h1>
-        <h3>A Full Stack Software Engineer.<br/>Who codes fun and interesting applications.</h3>
+        <h3>From IT help desk to Full Stack Software Engineer — growing, building, and having fun along the way.</h3>
     </header>
   )
 }
