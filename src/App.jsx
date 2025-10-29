@@ -4,8 +4,11 @@ import Header from './components/Header/Header'
 import About from './components/About/About'
 import Project from './components/Project/Project'
 import Contacts from './components/Contacts/Contacts'
+import projects from './data.json'
 
 function App() {
+
+
 
   return (
     <>
@@ -13,7 +16,9 @@ function App() {
     <Header />
     <main>
       <About />
-      <Project />
+      {projects.map((project) => (
+        <Project project={project} />
+      ))}
       <Contacts />
     </main>
 

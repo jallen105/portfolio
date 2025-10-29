@@ -9,7 +9,7 @@
     },
     {
         "repoLink": "https://github.com/jallen105/music-playlist-app", 
-        "title": "Pokemon Stat Wordle",
+        "title": "Music Share",
         "description": "This app is for creating and sharing your favorite music playlists. Users can sign in to create, edit, and remove playlists and songs. Anyone can view all the playlists our community has made on our community page.",
         "technologies": ["EJS", "CSS", "MongoDB", "JavaScript", "Express API"],
         "devTime": "5 days",
