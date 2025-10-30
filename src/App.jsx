@@ -21,10 +21,14 @@ function App() {
     <Header img={portrait} />
     <main>
       <About />
+      <section id='projects'>
+        <h2>Projects</h2>
       {projects.map((project, idx) => (
         <Project project={project} img={pictures[idx]} />
       ))}
       <Contacts />
+      </section>
+
     </main>
 
     </>

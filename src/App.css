@@ -42,6 +42,18 @@ header {
   text-align: center;
 }
 
+#about {
+  min-height: 100vh;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-content {
+  margin: auto 0;
+}
+
 main {
   width: 100%;
   display: flex;
@@ -49,10 +61,18 @@ main {
   align-items: center;
 }
 
+#projects {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px
+}
+
 /* From Uiverse.io by suleymanlaarabidev */ 
 .card {
   width:  80vw;
   height: 300px;
+  padding: 5px;
   background: rgb(103, 225, 255);
   transition: all 0.4s;
   border-radius: 10px;
