@@ -4,7 +4,6 @@
         "title": "Pokemon Stat Wordle",
         "description": "This is a game were you have to guess a randomly selected Pokémon. For each guess it will show the Pokémon's typings, stats, and base stat total. There will be indications on whether the typing matches or if the stat is higher lower or matches.",
         "technologies": ["HTML", "CSS", "JavaScript"],
-        "devTime": "5 days",
         "siteLink": "https://jallen105.github.io/gen-one-pokemon-stat-wordle/"
     },
     {
@@ -12,7 +11,6 @@
         "title": "Music Share",
         "description": "This app is for creating and sharing your favorite music playlists. Users can sign in to create, edit, and remove playlists and songs. Anyone can view all the playlists our community has made on our community page.",
         "technologies": ["EJS", "CSS", "MongoDB", "JavaScript", "Express API"],
-        "devTime": "5 days",
         "siteLink": "https://music-playlist-share-71fd7ec0314e.herokuapp.com/"
     },
     {
@@ -20,7 +18,6 @@
         "title": "Murhpy Near Me",
         "description": "Murphy Near Me is a location-based app designed to help users quickly find nearby Murphy gas stations. Whether you're on the road or planning ahead, the app lets you search on the fly or save frequently used addresses for easy access later. It integrates Google Maps for real-time geo-location and nearby search, offering a visual interface to explore and manage your locations.",
         "technologies": ["MongoDB", "Express API", "React", "CSS", "JavaScript", "Google Maps API"],
-        "devTime": "5 days",
         "siteLink": "https://murphy-near-me.netlify.app/"
     },
     {
@@ -28,7 +25,6 @@
         "title": "Game Watchlist",
         "description": "This app is used to track Steam game prices and to show when a price is below a target discount price. You can create watchlists and add games to them. Then set a target price to see when the games price discounted below that price.",
         "technologies": ["Django", "Python", "PostgreSQL", "CSS", "Steam API"],
-        "devTime": "5 days",
         "siteLink": "https://steam-price-checker-803b33e0cbea.herokuapp.com/"
     }
 ]

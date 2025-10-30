@@ -1,13 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  height: 100vh;
+  width: 100vw;
+  max-width: 100%;
+  color: antiquewhite;
+  background-color: navy;
+}
+
+nav {
+  width: 100%;
+  padding-top: 15px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+header {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+main {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
 /* From Uiverse.io by suleymanlaarabidev */ 
 .card {
   width:  80vw;
-  height: 254px;
+  height: 300px;
   background: rgb(103, 225, 255);
   transition: all 0.4s;
   border-radius: 10px;
   box-shadow: 0px 0px 10px 5px  rgba(0, 0, 0, 0.705);
-  font-size: 30px;
+  font-size: 16px;
   font-weight: 900;
 }
 
@@ -24,10 +61,12 @@
   width: 100%;
   transition: all 0.4s;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   opacity: 1;
   border-radius: 15px;
+  color: black;
 }
 
 .card:hover .card-front {
@@ -40,6 +79,7 @@
   width: 100%;
   opacity: 0;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   border-radius: 15px;
@@ -51,6 +91,14 @@
 .card:hover .card-back {
   opacity: 1;
   height: 100%;
-  font-size: 1.8rem;
+  font-size: 16px;
   transform: rotate(0deg);
+}
+
+.card img {
+  width: 250px;
+}
+
+header img {
+  height: 400px;
 }
