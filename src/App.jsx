@@ -17,18 +17,18 @@ function App() {
 
   return (
     <>
-    <NavBar />
     <Header img={portrait} />
     <main>
-      <About />
+      <About />        
       <section id='projects'>
         <h2>Projects</h2>
-      {projects.map((project, idx) => (
-        <Project project={project} img={pictures[idx]} />
-      ))}
-      <Contacts />
+        <div className='projects-container'>
+          {projects.map((project, idx) => (
+            <Project project={project} img={pictures[idx]} />
+          ))}
+        </div>
       </section>
-
+      <Contacts />
     </main>
 
     </>

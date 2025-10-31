@@ -3,17 +3,21 @@ const Project = ({ project, img }) => {
 
   return (
     <div className="card">
-      <h3 className="title">{ project.title }</h3>
-      <img src={img} alt="pic of app" />
-      <p>{ project.description }</p>
-      <p><b>Technologies</b></p>
-      <ul>
-      { project.technologies.map((technology, idx) => (
-        <li key={idx}>{technology}</li>
-      ))}
-      </ul>
-      <p><a href={ project.siteLink } >Deployed App</a></p>
-      <p><a href={ project.repoLink } >Git Hub Repo</a></p>
+      <img src={img} alt="picture of the app" />
+      <div className="project-content">
+        <h3 className="title">{ project.title }</h3>
+        <p>{ project.description }</p>
+        <p><b>Technologies</b></p>
+        <ul>
+        { project.technologies.map((technology, idx) => (
+          <li key={idx}>{technology}</li>
+        ))}
+        </ul>
+        <div className="project-links">
+          <p><a href={ project.siteLink } >Deployed App →</a></p>
+          <p><a href={ project.repoLink } >Git Hub Repo →</a></p>
+        </div>
+      </div>
     </div>
   )
 }
